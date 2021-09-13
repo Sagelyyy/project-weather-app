@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+      height: 100%;
+      background-color: #FBAB7E;
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+  }
+
+.margin{
+    margin-left: 35%;
+}
+
+.weather-data{
+    margin: 0 auto;
+    height: 287px;
+    width: 788px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.weather-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.user-input{
+    height: 50px;
+    width: 787px;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.city-input{
+    width: 90%;
+}
+
+ul{
+    list-style: none;
+}
