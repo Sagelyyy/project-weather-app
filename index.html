@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/weather-icons.min.css" />
     <title></title>
   </head>
   <body>
     <div class='margin'></div>
     <section class="user-input">
-        <form>
-          <input placeholder='Enter a city' class="city-input" />
-          <button class="btn" type="button">Submit</button>
-        </form>
+        <input placeholder='Enter a city' class="city-input" />
+        <button class="btn" type="button">Submit</button>
       </section>
     <section class='weather-data'>
         <ul class='weather-items'>
-            <li class='city'>City</li>
-            <li class='temp'>Temp</li>
-            <li class='desc'>Desc</li>
-            <img class='desc-img' src='#'>
+            <li class='city item'>City</li>
+            <li class ='time item'>time</li>
+            <i id="weather" class="wi wi-day-sunny"></i>
+            <li class='temp item'>Temp</li>
         </ul>
     </section>
 
