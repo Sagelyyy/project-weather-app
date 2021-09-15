@@ -18,7 +18,7 @@ function pageLoadTime() {
 }
 
 async function getCityData(cityName) {
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=imperial`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=imperial`;
   console.log(url);
   if (cityName != "") {
     try {
