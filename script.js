@@ -221,7 +221,7 @@ function displayData() {
   const tempDesc = document.querySelector('.temp-desc')
 
   cityDisplay.textContent = myCity.name;
-  tempDisplay.textContent = `${Math.round(myCity.temp)}°`;
+  tempDisplay.textContent = `${Math.round(myCity.temp)}° F`;
   asOfTime.textContent = `As of ${myCity.asOf}`;
   tempDesc.textContent = myCity.weather
 }
