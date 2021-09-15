@@ -3,23 +3,28 @@
   <head>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/weather-icons.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title></title>
   </head>
   <body>
-    <div class='margin'></div>
     <section class="user-input">
         <input placeholder='Enter a city' class="city-input" />
-        <button class="btn" type="button">Submit</button>
+        <button class="material-icons btn" type="button">search</button>
       </section>
     <section class='weather-data'>
         <ul class='weather-items'>
             <li class='city item'>City</li>
             <li class ='time item'>time</li>
+            <li class='temp-desc'>desc</li>
             <i id="weather" class="wi wi-day-sunny"></i>
             <li class='temp item'>Temp</li>
+            <div class='blur'></div>
         </ul>
     </section>
-
+    <section class='timer-info'>
+        <p class='timer'>time</p>
+    </section>
   </body>
   <footer>
     <script src="script.js"></script>
