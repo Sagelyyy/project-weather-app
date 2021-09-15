@@ -218,8 +218,8 @@ body {
       }
     
       .wi {
-        margin-left: 210px;
-        transform: scale(5);
+        font-size: 100px;
+        margin-left: 90px;
         color: yellow;
       }
     
@@ -230,7 +230,7 @@ body {
       }
     
       .time {
-        margin-top: -80px;
+        margin-top: -60px;
         margin-left: 85px;
         font-style: italic;
         opacity: 0.8;
