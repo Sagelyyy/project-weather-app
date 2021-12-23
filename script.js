@@ -230,4 +230,4 @@ citySubmit.addEventListener("click", (e) => {
   processData(cityInput.value);
 });
 
-processData("boston");
+processData("hudson");
